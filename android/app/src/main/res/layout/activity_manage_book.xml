@@ -172,7 +172,7 @@
                 android:background="@drawable/bg_banner_purple"
                 android:padding="13dp"
                 android:text="@string/managebook_available_notice"
-                android:textColor="#6B21A8"
+                android:textColor="@color/banner_tx"
                 android:textSize="12sp" />
 
             <com.google.android.material.button.MaterialButton

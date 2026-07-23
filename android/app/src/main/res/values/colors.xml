@@ -26,6 +26,11 @@
     <color name="info">#2563EB</color>
     <color name="purple">#7C3AED</color>
 
+    <!-- Info notice banner (Manage Book). Flipped in values-night for dark mode. -->
+    <color name="banner_bg">#FAF5FF</color>
+    <color name="banner_stroke">#EADDFF</color>
+    <color name="banner_tx">#6B21A8</color>
+
     <!-- Status chip fills + text -->
     <color name="s_pending_bg">#FEF3C7</color>
     <color name="s_pending_tx">#B45309</color>
