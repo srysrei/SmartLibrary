@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Smart Library</string>
+    <string name="welcome_message">Welcome to Smart Library</string>
+    <string name="welcome_back">Welcome back, %1$s</string>
+    <string name="dashboard_subtitle">Here\'s what\'s happening at the library today.</string>
+    <string name="total_books">Total Books</string>
+    <string name="borrowed">Borrowed</string>
+    <string name="available">Available</string>
+    <string name="overdue">Overdue</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="view_all">View All</string>
+    <string name="actions">Actions</string>
+    <string name="add_new_book">Add New Book</string>
+    <string name="add_new_book_title">Add New Book</string>
+    <string name="manage_book_subtitle">Enter the book details to expand the catalog collection.</string>
+    <string name="scan_catalog">Scan Catalog</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_catalog">Catalog</string>
+    <string name="nav_activity">Activity</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_requests">Requests</string>
+    <string name="nav_books">Books</string>
+    <string name="nav_users">Users</string>
+    <string name="nav_borrows">Borrows</string>
+    <string name="nav_return">Return</string>
+    <string name="by_author">by %1$s</string>
+    <string name="create_account">Create Account</string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="profile_subtitle">Manage your library account information and security.</string>
+    <string name="change_photo">CHANGE PHOTO</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="membership_level">Membership Level</string>
+    <string name="scholarly_gold">Scholarly Gold</string>
+    <string name="renewal_date">Renewal Date</string>
+    <string name="renewal_date_value">Dec 2024</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="logout">Logout</string>
+    <string name="placeholder_password">library_secret_123</string>
+    <string name="current_loans">Current Loans</string>
+    <string name="pending_requests">Pending Requests</string>
+    <string name="active">Active</string>
+    <string name="history">History</string>
+    <string name="renew">Renew</string>
+    <string name="return_book">Return</string>
+    <string name="pay_fine">Pay Fine &amp; Return</string>
+    <string name="dummy_book_title">The Silent Patient</string>
+    <string name="dummy_author">Alex Michaelides</string>
+    <string name="dummy_due_date">Due: Oct 24, 2023</string>
+    <string name="dummy_request">Borrow Request: Project Hail Mary</string>
+    <string name="dummy_request_status">Waiting for librarian approval</string>
+    <string name="add_category">Add Category</string>
+    <string name="add_user">Add User</string>
+    <string name="update_book">Update Book</string>
+    <string name="total_books_count">12,482</string>
+    <string name="available_count">9,362</string>
+    <string name="borrowed_count_value">3,120</string>
+    <string name="overdue_count_value">42</string>
+    <string name="library_usage">Library Usage</string>
+    <string name="dummy_activity_title">The Silent Archive</string>
+    <string name="dummy_activity_subtitle">Borrowed by James Wilson</string>
+    <string name="dummy_activity_time">2 mins ago</string>
+    <string name="welcome_back_title">Welcome Back</string>
+    <string name="login_subtitle">Enter your credentials to access your library account.</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="login_footer">By logging in, you agree to Smart Library\'s Terms of Service and Privacy Policy.</string>
+    <string name="book_title_label">Book Title</string>
+    <string name="author_name_label">Author Name</string>
+    <string name="xml_layout_test">Lumina Library - XML Layout</string>
+    <string name="splash_subtitle">Your Digital Knowledge Hub</string>
+    <string name="join_library">Join the library ecosystem to start borrowing resources.</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="id_number">Student / Staff ID</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+    <string name="search_hint">Search by title, author&#8230;</string>
+    <string name="science">Science</string>
+    <string name="history_cat">History</string>
+    <string name="fiction">Fiction</string>
+    <string name="technology">Technology</string>
+    <string name="arts">Arts</string>
+    <string name="status">STATUS</string>
+    <string name="isbn">ISBN</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="synopsis_dummy">A detailed description of the book will appear here. This book explores various themes and offers insights into the author\'s world.</string>
+    <string name="borrow_this_book">Borrow This Book</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="all_books">All Books</string>
+    <string name="total_label">Total:</string>
+    <string name="borrowed_label">Borrowed:</string>
+    <string name="in_stock_label">In Stock:</string>
+    <string name="register">Register</string>
+    <string name="stock_management">Stock Management</string>
+    <string name="upload_cover">Upload Cover</string>
+    <string name="book_title">Book Title</string>
+    <string name="primary_author">Primary Author</string>
+    <string name="isbn_13">ISBN-13</string>
+    <string name="category">Category</string>
+    <string name="synopsis_hint">Synopsis / Abstract</string>
+    <string name="save_book_record">Save Book Record</string>
+    <string name="dummy_avatar_url" tools:ignore="all">https://lh3.googleusercontent.com/aida-public/AB6AXuB8V55HbGvpU4GDHsOrtZXjxtfegFe4KRwR-9z-5qR0mmZJlA3Xhn_9fm-y8sb0vXDPePRfXa216628rf04gqSZKhplPm7MkHEDKoZbUI9C585fK7LGWIpcQqNGH8-vZMDoQTf51o0L45sjtfdNcsaS5RqE1UTtfYKktSll7Rh-Ob0ezyJ2OlZlXjStPDY1AEv1is9zDImsGZ-apoawW5Win1p2hIZaGymcCP8pvErfdarRe0C2SzjeX-GkbT1C8-hhAfWAfQndXoM</string>
+    <string name="profile_avatar_url" tools:ignore="all">https://lh3.googleusercontent.com/aida-public/AB6AXuDJRhMBkKDgxN-ZYzSL3w8kM2WE0FAf5bt6evGshpAmmFK_nluZ8fzMoFBUc94hbS_IRknPWB-VVSUekNuYCLF8PHkJmZ6Kgs0GTvgi6X8z21_LA-ykTDb67MbEOPkNE_jyNPOk_AjrgZjIkvs8lT95Bx16aBK2CU4qsE0yQDT4IYJh-NyjWCbZ7G2Na_ZpnIOdy8XGbrg2wV2t50gc69eiZ3c6Fq08QtPk_JsyzvSmu2ppdMYK_OJ54ie_00UReStTxgcx4esQlUA</string>
+    <string name="splash_icon_url" tools:ignore="all">https://cdn-icons-png.flaticon.com/512/29/29302.png</string>
+    <string name="isbn_dummy" tools:ignore="all">978&#8211;0123456789</string>
+    <string name="cover_gatsby" tools:ignore="all">https://covers.openlibrary.org/b/id/8225266-L.jpg</string>
+    <string name="cover_1984" tools:ignore="all">https://covers.openlibrary.org/b/id/12648431-L.jpg</string>
+    <string name="cover_mockingbird" tools:ignore="all">https://covers.openlibrary.org/b/id/8226191-L.jpg</string>
+    <string name="cover_silent_patient" tools:ignore="all">https://covers.openlibrary.org/b/id/10574042-L.jpg</string>
+    <string name="cover_project_hail_mary" tools:ignore="all">https://covers.openlibrary.org/b/id/10570535-L.jpg</string>
+
+    <!-- Language / localization -->
+    <string name="language">Language</string>
+    <string name="choose_language">Choose language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_khmer">Khmer</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Theme / appearance -->
+    <string name="theme">Theme</string>
+    <string name="choose_theme">Choose theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="profile_theme_label">🎨 Theme</string>
+
+    <!-- Login screen -->
+    <string name="login_hero_tagline">Borrow, read, return — all in one place.</string>
+    <string name="login_welcome">Welcome back 👋</string>
+    <string name="login_sign_in_subtitle">Sign in to continue to your library</string>
+    <string name="login_email_hint">Email or Username</string>
+    <string name="login_email_placeholder">Enter your email or username</string>
+    <string name="forgot_password_q">Forgot password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="new_here">New here? </string>
+    <string name="create_account_link">Create account</string>
+    <string name="enter_credentials">Enter your email or username and password</string>
+
+    <!-- Profile screen -->
+    <string name="profile_change_photo">📷 Change photo</string>
+    <string name="profile_photo_updated">Profile photo updated</string>
+    <string name="profile_language_label">🌐 Language</string>
+    <string name="edit_profile">👤 Edit profile</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="update_profile_btn">Update profile</string>
+    <string name="change_password">🔒 Change password</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password_hint">New password (min 6 chars)</string>
+    <string name="update_password">Update password</string>
+    <string name="log_out">Log out</string>
+    <string name="profile_required">Username, name, email and phone are required</string>
+    <string name="username_rule">Username must be 3-50 characters: letters, digits, dot, underscore or hyphen</string>
+    <string name="invalid_email">Enter a valid email address</string>
+    <string name="profile_updated">Profile updated</string>
+    <string name="enter_old_new_password">Enter current and new password</string>
+    <string name="password_min_length">New password must be at least 6 characters</string>
+    <string name="password_updated">Password updated</string>
+</resources>

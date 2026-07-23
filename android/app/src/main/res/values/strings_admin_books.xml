@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dashboard -->
+    <string name="dashboard_admin_panel">Admin panel</string>
+    <string name="dashboard_title">Dashboard 📊</string>
+    <string name="dashboard_registered_users">Registered users</string>
+    <string name="dashboard_pending_requests">Pending requests</string>
+    <string name="dashboard_active_borrows">Active borrows</string>
+    <string name="dashboard_pending_approvals">Pending approvals</string>
+    <string name="dashboard_no_pending">No pending requests 🎉</string>
+    <string name="dashboard_review_all">Review all requests</string>
+    <string name="dashboard_settings">Settings</string>
+    <string name="dashboard_settings_desc">Configure the email used to send password-reset OTP codes.</string>
+    <string name="dashboard_otp_email_sender">OTP email sender ✉️</string>
+
+    <!-- Manage book -->
+    <string name="managebook_create_book">Create book</string>
+    <string name="managebook_edit_book">Edit book</string>
+    <string name="managebook_cover_content_desc">Tap to select cover image</string>
+    <string name="managebook_cover_prompt">Tap to select cover image (optional)</string>
+    <string name="managebook_remove_image">Remove image</string>
+    <string name="managebook_hint_title">Title</string>
+    <string name="managebook_hint_author">Author</string>
+    <string name="managebook_hint_category">Category</string>
+    <string name="managebook_manage_categories">＋ Manage categories</string>
+    <string name="managebook_hint_description">Description</string>
+    <string name="managebook_hint_quantity">Quantity</string>
+    <string name="managebook_available_notice">🔒 Available copies are auto-managed by the server. On create it equals QTY; afterwards it is QTY minus copies out on loan.</string>
+    <string name="managebook_save_book">Save book</string>
+    <string name="managebook_error_required">Title, author and description are required</string>
+    <string name="managebook_error_select_category">Select a category</string>
+    <string name="managebook_error_valid_quantity">Enter a valid quantity</string>
+    <string name="managebook_book_updated">Book updated</string>
+    <string name="managebook_book_created">Book created</string>
+    <string name="managebook_image_read_failed">Couldn\'t read the selected image</string>
+    <string name="managebook_image_upload_failed">Couldn\'t upload the cover image</string>
+
+    <!-- Settings -->
+    <string name="settings_admin_settings">Admin settings</string>
+    <string name="settings_otp_email_sender_title">OTP Email Sender ✉️</string>
+    <string name="settings_sender_mailbox">✉️ Sender mailbox</string>
+    <string name="settings_loading">Loading…</string>
+    <string name="settings_hint_sender_email">Sender email (Gmail)</string>
+    <string name="settings_hint_app_password">App password</string>
+    <string name="settings_app_password_notice">Use a Gmail 16-character App Password, not the login password. For security the current password is never shown — re-enter it to save changes.</string>
+    <string name="settings_save_sender">Save sender</string>
+    <string name="settings_send_test_email_title">🧪 Send test email</string>
+    <string name="settings_send_test_email_desc">Send a test message from the saved mailbox to confirm the credentials work.</string>
+    <string name="settings_hint_recipient_email">Recipient email</string>
+    <string name="settings_send_test_email">Send test email</string>
+    <string name="settings_back_content_desc">Back</string>
+    <string name="settings_admin_access_required">Admin access required</string>
+    <string name="settings_current_sender">Current sender: %1$s</string>
+    <string name="settings_no_sender_configured">No sender configured yet. Add one below.</string>
+    <string name="settings_could_not_load_sender">Could not load current sender</string>
+    <string name="settings_enter_email_and_password">Enter the sender email and app password</string>
+    <string name="settings_enter_valid_email">Enter a valid email address</string>
+    <string name="settings_sender_saved">Sender saved</string>
+    <string name="settings_enter_valid_recipient">Enter a valid recipient email</string>
+    <string name="settings_test_email_sent">Test email sent</string>
+
+</resources>

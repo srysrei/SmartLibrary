@@ -1,0 +1,31 @@
+# ---- OS ----
+.DS_Store
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+
+# ---- Gradle / Android ----
+.gradle/
+build/
+**/build/
+local.properties
+captures/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Keep the Gradle wrapper jar tracked (do NOT ignore it):
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- Backend (Node.js) ----
+node_modules/
+.env
+npm-debug.log*
+
+# ---- Firebase / service-account secrets ----
+serviceAccount*.json
+*-service-account.json
+firebase-debug.log

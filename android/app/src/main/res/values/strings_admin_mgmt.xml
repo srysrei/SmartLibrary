@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Borrow Requests screen -->
+    <string name="requests_subtitle">Moderate</string>
+    <string name="requests_title">Borrow Requests ✅</string>
+    <string name="requests_empty">No requests here</string>
+    <string name="requests_filter_pending">Pending</string>
+    <string name="requests_filter_approved">Approved</string>
+    <string name="requests_filter_rejected">Rejected</string>
+    <string name="requests_filter_returned">Returned</string>
+    <string name="requests_filter_all">All</string>
+    <string name="requests_status_updated">Request %1$s</string>
+
+    <!-- item_request buttons -->
+    <string name="requests_approve">✅ Approve</string>
+    <string name="requests_reject">✖ Reject</string>
+    <string name="requests_reverse">🔁 Reverse</string>
+
+    <!-- Users screen -->
+    <string name="users_subtitle">Manage access</string>
+    <string name="users_title">Users &amp; Roles 👥</string>
+    <string name="users_empty">No users found</string>
+    <string name="users_grant_admin">Grant admin permission</string>
+    <string name="users_role_updated">%1$s is now %2$s</string>
+</resources>

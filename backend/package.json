@@ -1,0 +1,13 @@
+{
+  "name": "lumina-library-android",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo \"Build skipped for Android project\"",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

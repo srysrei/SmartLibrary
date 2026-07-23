@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Book list screen -->
+    <string name="booklist_welcome">Welcome,</string>
+    <string name="booklist_reader">Reader 📖</string>
+    <string name="booklist_greeting">%1$s 📖</string>
+    <string name="booklist_greeting_fallback">Reader</string>
+    <string name="booklist_search_desc">search</string>
+    <string name="booklist_search_hint">Search title or author…</string>
+    <string name="booklist_empty">No books found</string>
+    <string name="booklist_add_book_desc">Add book</string>
+    <string name="booklist_all">All</string>
+
+    <!-- item_book -->
+    <string name="booklist_cover_desc">cover</string>
+    <string name="booklist_available_dot">● available</string>
+
+    <!-- Book detail screen -->
+    <string name="bookdetail_back">← Back</string>
+    <string name="bookdetail_cover_desc">cover</string>
+    <string name="bookdetail_category_pill">🏷️ Category</string>
+    <string name="bookdetail_total_qty">TOTAL (QTY)</string>
+    <string name="bookdetail_available_caps">AVAILABLE</string>
+    <string name="bookdetail_description_heading">📄 Description</string>
+    <string name="bookdetail_borrow">🛒  Borrow this book</string>
+    <string name="bookdetail_no_description">No description.</string>
+    <string name="bookdetail_out_of_stock">Out of stock</string>
+    <string name="bookdetail_category_pill_value">🏷️ %1$s</string>
+    <string name="bookdetail_delete_title">Delete book</string>
+    <string name="bookdetail_delete_message">Delete \"%1$s\"? This cannot be undone.</string>
+    <string name="bookdetail_delete_fallback">this book</string>
+    <string name="bookdetail_deleted">Book deleted</string>
+
+    <!-- Category screen -->
+    <string name="category_title">Categories 🏷️</string>
+    <string name="category_new_hint">New category name</string>
+    <string name="category_add">Add</string>
+    <string name="category_edit_desc">edit</string>
+    <string name="category_delete_desc">delete</string>
+    <string name="category_enter_name">Enter a category name</string>
+    <string name="category_created">Category created</string>
+    <string name="category_name_hint">Category name</string>
+    <string name="category_edit_title">Edit category</string>
+    <string name="category_save">Save</string>
+    <string name="category_updated">Category updated</string>
+    <string name="category_delete_title">Delete category</string>
+    <string name="category_delete_message">Delete \"%1$s\"?</string>
+    <string name="category_deleted">Category deleted</string>
+</resources>

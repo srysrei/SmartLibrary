@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Register screen -->
+    <string name="register_hero_title">Create account</string>
+    <string name="register_hero_subtitle">Join the Smart Library in seconds.</string>
+    <string name="register_username_placeholder">Used to sign in</string>
+    <string name="register_password_hint">Password (min 6 chars)</string>
+    <string name="register_confirm_password_hint">Confirm password</string>
+    <string name="register_default_role_note">New accounts get the USER role by default.</string>
+    <string name="register_already_registered">Already registered? </string>
+    <string name="register_sign_in">Sign in</string>
+    <string name="register_fill_all_fields">Please fill in all fields</string>
+    <string name="register_username_rule">Username must be 3-50 characters: letters, digits, dot, underscore or hyphen</string>
+    <string name="register_password_min_length">Password must be at least 6 characters</string>
+    <string name="register_passwords_no_match">Passwords do not match</string>
+    <string name="register_welcome">Welcome, %1$s!</string>
+
+    <!-- Forgot password screen -->
+    <string name="forgot_hero_title">Forgot password?</string>
+    <string name="forgot_hero_subtitle">We\'ll send a reset code to your email.</string>
+    <string name="forgot_send_reset_code">Send reset code</string>
+    <string name="forgot_back_to_login">← Back to login</string>
+    <string name="forgot_enter_email">Enter your email</string>
+    <string name="forgot_reset_code_sent">If the account exists, a reset code was sent to your email</string>
+
+    <!-- Reset password screen -->
+    <string name="reset_hero_title">Enter code</string>
+    <string name="reset_hero_subtitle">Check your inbox for a 6-digit code.</string>
+    <string name="reset_timer_note">Enter the code sent to your email. Expires in</string>
+    <string name="reset_otp_hint">6-digit code</string>
+    <string name="reset_new_password_hint">New password (min 6 chars)</string>
+    <string name="reset_confirm_password_hint">Confirm new password</string>
+    <string name="reset_update_password">Update password</string>
+    <string name="reset_expired">Expired</string>
+    <string name="reset_code_expired">Code expired — please request a new one</string>
+    <string name="reset_enter_code_and_password">Enter the code and a new password</string>
+    <string name="reset_password_min_length">Password must be at least 6 characters</string>
+    <string name="reset_passwords_no_match">Passwords do not match</string>
+    <string name="reset_password_updated">Password updated — please log in</string>
+
+    <!-- Splash screen -->
+    <string name="splash_tagline">Borrow, read, return — all in one place.</string>
+
+</resources>

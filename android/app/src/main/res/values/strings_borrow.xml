@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- BorrowActivity -->
+    <string name="borrow_title">Borrow request</string>
+    <string name="borrow_book_title">Book title</string>
+    <string name="borrow_book_author">by author</string>
+    <string name="borrow_date_label">Borrow date</string>
+    <string name="borrow_date_content_desc">date</string>
+    <string name="borrow_pick_date">Pick a date</string>
+    <string name="borrow_duration_label">Duration (days)</string>
+    <string name="borrow_days">14 days</string>
+    <string name="borrow_note_label">Note (optional)</string>
+    <string name="borrow_note_hint">e.g. For research project reference.</string>
+    <string name="borrow_pending_banner">📌 Creates a PENDING borrow request.</string>
+    <string name="borrow_submit">Submit borrow request</string>
+    <string name="borrow_default_book">Book</string>
+    <string name="borrow_default_author">author</string>
+    <string name="borrow_days_format">%1$d days</string>
+    <string name="borrow_return_by_format">📌 Return by %1$s · creates a PENDING request.</string>
+    <string name="borrow_request_submitted">Request submitted — status PENDING</string>
+
+    <!-- MyBorrowsActivity -->
+    <string name="myborrows_subtitle">My activity</string>
+    <string name="myborrows_title">My Borrows 📋</string>
+    <string name="myborrows_empty">No borrow requests yet</string>
+    <string name="myborrows_filter_to_return">To return</string>
+    <string name="myborrows_filter_all">All</string>
+    <string name="myborrows_filter_pending">Pending</string>
+    <string name="myborrows_filter_approved">Approved</string>
+    <string name="myborrows_filter_returned">Returned</string>
+
+    <!-- item_borrow -->
+    <string name="myborrows_item_return">↩️ Return now</string>
+
+    <!-- ReturnActivity -->
+    <string name="return_title">Return books</string>
+    <string name="return_summary">Choose which copies to return.</string>
+    <string name="return_info_banner">ℹ️ Returning some copies sets status RETURN; returning all sets RETURNALL and restores stock.</string>
+    <string name="return_confirm">Confirm return</string>
+    <string name="return_summary_format">BO #%1$d · borrowed %2$s · %3$d days. Choose which copies to return.</string>
+    <string name="return_default_book">Book #%1$d</string>
+    <string name="return_already_returned">Already returned</string>
+    <string name="return_item_author_format">by %1$s</string>
+    <string name="return_returned_check">✓ Returned</string>
+    <string name="return_nothing_left">Nothing left to return</string>
+    <string name="return_select_one">Select at least one copy to return</string>
+    <string name="return_submitted_format">Return submitted — status %1$s</string>
+
+</resources>

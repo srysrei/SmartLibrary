@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Dark-mode overrides. Only the surface/background/text/border tones are flipped here;
+      every other color (brand_*, white, status chips, role badges) falls back to values/colors.xml.
+      @color/white stays white on purpose so titles/icons on the blue gradient headers and the
+      brand-colored buttons remain readable in dark mode.
+    -->
+    <color name="surface">#1E2230</color>
+    <color name="panel_bg">#12141C</color>
+
+    <color name="ink">#E7E8EF</color>
+    <color name="ink_sub">#9EA0B4</color>
+    <color name="line">#2C2F3C</color>
+    <color name="field_stroke">#3A3E4E</color>
+</resources>
