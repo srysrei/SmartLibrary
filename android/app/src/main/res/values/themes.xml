@@ -15,6 +15,13 @@
         <item name="android:windowLightStatusBar">false</item>
     </style>
 
+    <!-- Launch theme for SplashActivity. On Android < 12 the gradient window
+         background paints immediately (no white flash) so the OS window blends
+         straight into activity_splash.xml. Android 12+ splash config is in values-v31. -->
+    <style name="Theme.SmartLibrary.Splash" parent="Theme.SmartLibrary">
+        <item name="android:windowBackground">@drawable/bg_gradient_dashboard</item>
+    </style>
+
     <!-- Rounded, filled primary button -->
     <style name="Widget.SmartLibrary.Button" parent="Widget.Material3.Button">
         <item name="cornerRadius">14dp</item>

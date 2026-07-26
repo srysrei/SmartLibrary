@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Android 12+ forces a system splash on every cold start; it can't be
+         removed, only styled. We make it a plain brand_700 screen with a fully
+         transparent icon, so there is no separate branded logo screen - it just
+         looks like the blue background before activity_splash.xml paints. -->
+    <style name="Theme.SmartLibrary.Splash" parent="Theme.SmartLibrary">
+        <item name="android:windowSplashScreenBackground">@color/brand_700</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_icon_none</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+    </style>
+
+</resources>
