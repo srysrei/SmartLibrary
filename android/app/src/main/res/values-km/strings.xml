@@ -331,4 +331,18 @@
     <string name="users_grant_admin">ផ្តល់សិទ្ធិអ្នកគ្រប់គ្រង</string>
     <string name="users_role_updated">%1$s ឥឡូវជា %2$s</string>
 
+    <!-- Book-return reminder notifications -->
+    <string name="notif_channel_name">ការរំលឹកសងសៀវភៅ</string>
+    <string name="notif_channel_desc">ការរំលឹកឱ្យសងសៀវភៅដែលបានខ្ចីទាន់ពេលវេលា</string>
+    <string name="notif_user_title">📚 ដល់ពេលសងសៀវភៅរបស់អ្នក</string>
+    <string name="notif_user_title_overdue">⚠️ សៀវភៅហួសកំណត់</string>
+    <plurals name="notif_user_text">
+        <item quantity="other">អ្នកមានសៀវភៅ %1$d ក្បាលដែលជិតដល់កំណត់ ឬហួសកំណត់សង។ សូមសងឱ្យទាន់ពេលវេលា។</item>
+    </plurals>
+    <string name="notif_admin_title">📋 សៀវភៅដល់កំណត់សង</string>
+    <string name="notif_admin_title_overdue">⚠️ សៀវភៅហួសកំណត់សង</string>
+    <plurals name="notif_admin_text">
+        <item quantity="other">សៀវភៅដែលបានខ្ចី %1$d ក្បាលជិតដល់កំណត់ ឬហួសកំណត់សង។ ចុចដើម្បីពិនិត្យ។</item>
+    </plurals>
+
 </resources>

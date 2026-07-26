@@ -23,6 +23,7 @@ import com.smartlibrary.network.ApiResult
 import com.smartlibrary.network.ImageUrls
 import com.smartlibrary.network.MultipartFiles
 import com.smartlibrary.network.SessionManager
+import com.smartlibrary.notify.ReminderScheduler
 import com.smartlibrary.ui.NavHelper
 import com.smartlibrary.ui.UiHelpers
 import kotlinx.coroutines.launch
@@ -230,6 +231,7 @@ class ProfileActivity : AppCompatActivity() {
     }
 
     private fun logout() {
+        ReminderScheduler.cancel(this)
         session.clear()
         startActivity(
             Intent(this, LoginActivity::class.java).addFlags(

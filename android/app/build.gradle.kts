@@ -85,6 +85,9 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
 
+    // WorkManager — schedules the periodic "return reminder" background check
+    implementation("androidx.work:work-runtime-ktx:2.9.1")
+
     // Image Loading
     implementation("io.coil-kt:coil:2.7.0")
 

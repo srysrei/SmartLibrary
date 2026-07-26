@@ -49,6 +49,7 @@ class BorrowRequestsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_borrow_requests)
 
         borrowRepo = BorrowRepository(this)
+        findViewById<ImageView>(R.id.btnBack).setOnClickListener { finish() }
         val sm = SessionManager(this@BorrowRequestsActivity)
         val onAvatar = View.OnClickListener {
             startActivity(Intent(this@BorrowRequestsActivity, ProfileActivity::class.java))

@@ -16,6 +16,7 @@ import com.smartlibrary.data.repository.BorrowRepository
 import com.smartlibrary.data.repository.DashboardRepository
 import com.smartlibrary.network.ApiResult
 import com.smartlibrary.network.SessionManager
+import com.smartlibrary.notify.ReminderScheduler
 import com.smartlibrary.ui.NavHelper
 import com.smartlibrary.ui.UiHelpers
 import kotlinx.coroutines.launch
@@ -44,6 +45,9 @@ class DashboardActivity : AppCompatActivity() {
 
         dashRepo = DashboardRepository(this)
         borrowRepo = BorrowRepository(this)
+
+        // Set up admin return reminders (channel, permission, recurring background check).
+        ReminderScheduler.setupHome(this)
 
         val onAvatar = View.OnClickListener {
             startActivity(Intent(this@DashboardActivity, ProfileActivity::class.java))
@@ -79,6 +83,7 @@ class DashboardActivity : AppCompatActivity() {
         if (!ready) return
         loadDashboard()
         loadPending()
+        ReminderScheduler.checkNow(this)
     }
 
     private fun loadDashboard() {

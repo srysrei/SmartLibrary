@@ -27,6 +27,7 @@ import com.smartlibrary.data.repository.toResponse
 import com.smartlibrary.network.ApiResult
 import com.smartlibrary.network.SessionManager
 import com.smartlibrary.network.dto.BookResponse
+import com.smartlibrary.notify.ReminderScheduler
 import com.smartlibrary.ui.NavHelper
 import com.smartlibrary.ui.UiHelpers
 import kotlinx.coroutines.launch
@@ -59,6 +60,9 @@ class BookListActivity : AppCompatActivity() {
         session = SessionManager(this)
         bookRepo = BookRepository(this)
         categoryRepo = CategoryRepository(this)
+
+        // Set up book-return reminders (channel, permission, recurring background check).
+        ReminderScheduler.setupHome(this)
 
         val greetingName = session.fullName.ifBlank { getString(R.string.booklist_greeting_fallback) }
         findViewById<TextView>(R.id.tvGreeting).text = getString(R.string.booklist_greeting, greetingName)
@@ -102,6 +106,7 @@ class BookListActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         loadBooks()
+        ReminderScheduler.checkNow(this)
     }
 
     private fun setupBottomNav() {

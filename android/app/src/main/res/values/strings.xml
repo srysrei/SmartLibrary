@@ -160,4 +160,20 @@
     <string name="enter_old_new_password">Enter current and new password</string>
     <string name="password_min_length">New password must be at least 6 characters</string>
     <string name="password_updated">Password updated</string>
+
+    <!-- Book-return reminder notifications -->
+    <string name="notif_channel_name">Return reminders</string>
+    <string name="notif_channel_desc">Reminders to return borrowed books on time</string>
+    <string name="notif_user_title">📚 Time to return your books</string>
+    <string name="notif_user_title_overdue">⚠️ Overdue books</string>
+    <plurals name="notif_user_text">
+        <item quantity="one">You have %1$d book due soon or overdue. Please return it on time.</item>
+        <item quantity="other">You have %1$d books due soon or overdue. Please return them on time.</item>
+    </plurals>
+    <string name="notif_admin_title">📋 Books due for return</string>
+    <string name="notif_admin_title_overdue">⚠️ Overdue book returns</string>
+    <plurals name="notif_admin_text">
+        <item quantity="one">%1$d borrowed book is due soon or overdue. Tap to review returns.</item>
+        <item quantity="other">%1$d borrowed books are due soon or overdue. Tap to review returns.</item>
+    </plurals>
 </resources>
