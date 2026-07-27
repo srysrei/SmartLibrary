@@ -151,7 +151,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/borrow_days"
-                    android:textColor="@color/ink"
+                    android:textColor="@color/ink_day"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
