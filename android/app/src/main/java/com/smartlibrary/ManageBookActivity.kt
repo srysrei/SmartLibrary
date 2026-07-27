@@ -84,7 +84,7 @@ class ManageBookActivity : AppCompatActivity() {
         isEdit = bookId > 0
         if (isEdit) findViewById<TextView>(R.id.tvTitle).text = getString(R.string.managebook_edit_book)
 
-        findViewById<TextView>(R.id.tvBack).setOnClickListener { finish() }
+        findViewById<ImageView>(R.id.tvBack).setOnClickListener { finish() }
         findViewById<TextView>(R.id.tvManageCategories).setOnClickListener {
             startActivity(Intent(this, CategoryActivity::class.java))
         }

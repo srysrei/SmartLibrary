@@ -3,6 +3,7 @@ package com.smartlibrary
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
@@ -33,7 +34,7 @@ class CategoryActivity : AppCompatActivity() {
         etName = findViewById(R.id.etName)
         progress = findViewById(R.id.progress)
 
-        findViewById<TextView>(R.id.tvBack).setOnClickListener { finish() }
+        findViewById<ImageView>(R.id.ivBack).setOnClickListener { finish() }
         findViewById<MaterialButton>(R.id.btnAdd).setOnClickListener { addCategory() }
 
         adapter = CategoryAdapter(

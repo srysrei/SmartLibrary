@@ -4,6 +4,7 @@ import android.app.DatePickerDialog
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.TextView
@@ -55,7 +56,7 @@ class BorrowActivity : AppCompatActivity() {
         btnSubmit = findViewById(R.id.btnSubmit)
         progress = findViewById(R.id.progress)
 
-        findViewById<TextView>(R.id.tvBack).setOnClickListener { finish() }
+        findViewById<ImageView>(R.id.ivBack).setOnClickListener { finish() }
         findViewById<LinearLayout>(R.id.rowDate).setOnClickListener { pickDate() }
         findViewById<TextView>(R.id.btnMinus).setOnClickListener { changeDays(-1) }
         findViewById<TextView>(R.id.btnPlus).setOnClickListener { changeDays(1) }

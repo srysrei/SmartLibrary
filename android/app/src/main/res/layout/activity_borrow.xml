@@ -14,14 +14,14 @@
         android:orientation="horizontal"
         android:padding="18dp">
 
-        <TextView
-            android:id="@+id/tvBack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingEnd="14dp"
-            android:text="←"
-            android:textColor="@color/white"
-            android:textSize="22sp" />
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="14dp"
+            android:src="@drawable/ic_arrow_back"
+            app:tint="@color/white" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -138,9 +138,11 @@
                     android:background="@drawable/bg_stepper_btn"
                     android:gravity="center"
                     android:text="−"
-                    android:textColor="@color/brand_600"
+                    android:textColor="@color/stepper_icon"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+
 
                 <TextView
                     android:id="@+id/tvDays"
@@ -160,7 +162,7 @@
                     android:background="@drawable/bg_stepper_btn"
                     android:gravity="center"
                     android:text="+"
-                    android:textColor="@color/brand_600"
+                    android:textColor="@color/stepper_icon"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>

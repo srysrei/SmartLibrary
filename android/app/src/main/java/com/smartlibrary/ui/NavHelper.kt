@@ -10,6 +10,7 @@ import com.smartlibrary.ManageBookActivity
 import com.smartlibrary.MyBorrowsActivity
 import com.smartlibrary.ProfileActivity
 import com.smartlibrary.R
+import com.smartlibrary.ReturnActivity
 import com.smartlibrary.UsersActivity
 
 /**
@@ -25,8 +26,7 @@ object NavHelper {
             val intent = when (item.itemId) {
                 R.id.nav_catalog -> Intent(activity, BookListActivity::class.java)
                 R.id.nav_borrows -> Intent(activity, MyBorrowsActivity::class.java)
-                R.id.nav_return -> Intent(activity, MyBorrowsActivity::class.java)
-                    .putExtra(MyBorrowsActivity.EXTRA_FILTER, MyBorrowsActivity.FILTER_RETURNABLE)
+                R.id.nav_return -> Intent(activity, ReturnActivity::class.java)
                 R.id.nav_profile -> Intent(activity, ProfileActivity::class.java)
                 else -> null
             }

@@ -14,14 +14,16 @@
         android:orientation="horizontal"
         android:padding="18dp">
 
-        <TextView
+        <ImageView
             android:id="@+id/tvBack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingEnd="14dp"
-            android:text="←"
-            android:textColor="@color/white"
-            android:textSize="22sp" />
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="14dp"
+            android:src="@drawable/ic_arrow_back"
+            app:tint="@color/white"
+    />
+
 
         <TextView
             android:id="@+id/tvTitle"
@@ -120,6 +122,7 @@
                     android:id="@+id/acCategory"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
                     android:inputType="none" />
             </com.google.android.material.textfield.TextInputLayout>
 

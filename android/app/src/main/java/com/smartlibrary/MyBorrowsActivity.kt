@@ -74,8 +74,7 @@ class MyBorrowsActivity : AppCompatActivity() {
 
         val nav = findViewById<BottomNavigationView>(R.id.bottomNav)
         nav.inflateMenu(R.menu.menu_user_nav)
-        val current = if (selectedStatus == FILTER_RETURNABLE) R.id.nav_return else R.id.nav_borrows
-        NavHelper.setupUser(this, nav, current)
+        NavHelper.setupUser(this, nav, R.id.nav_borrows)
 
         renderChips()
     }
