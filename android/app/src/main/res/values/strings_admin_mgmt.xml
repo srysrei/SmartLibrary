@@ -22,4 +22,8 @@
     <string name="users_empty">No users found</string>
     <string name="users_grant_admin">Grant admin permission</string>
     <string name="users_role_updated">%1$s is now %2$s</string>
+    <string name="users_search_hint">Search by name…</string>
+    <string name="users_filter_all">All</string>
+    <string name="users_filter_admin">Admin</string>
+    <string name="users_filter_user">User</string>
 </resources>

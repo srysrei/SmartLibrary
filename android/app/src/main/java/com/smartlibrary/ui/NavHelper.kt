@@ -10,6 +10,7 @@ import com.smartlibrary.ManageBookActivity
 import com.smartlibrary.MyBorrowsActivity
 import com.smartlibrary.ProfileActivity
 import com.smartlibrary.R
+import com.smartlibrary.ReportActivity
 import com.smartlibrary.ReturnActivity
 import com.smartlibrary.UsersActivity
 
@@ -44,6 +45,7 @@ object NavHelper {
                 R.id.nav_requests -> Intent(activity, BorrowRequestsActivity::class.java)
                 R.id.nav_books -> Intent(activity, BookListActivity::class.java)
                 R.id.nav_users -> Intent(activity, UsersActivity::class.java)
+                R.id.nav_reports -> Intent(activity, ReportActivity::class.java)
                 else -> null
             }
             intent?.let { navigate(activity, it) }
