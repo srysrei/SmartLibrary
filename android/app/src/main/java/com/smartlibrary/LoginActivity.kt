@@ -52,6 +52,10 @@ class LoginActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.tvForgot).setOnClickListener {
             startActivity(Intent(this, ForgotPasswordActivity::class.java))
         }
+
+        if (intent.getBooleanExtra(EXTRA_SESSION_EXPIRED, false)) {
+            toast(getString(R.string.session_expired))
+        }
     }
 
     private fun doLogin() {
@@ -93,4 +97,8 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun toast(msg: String) = Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
+
+    companion object {
+        const val EXTRA_SESSION_EXPIRED = "session_expired"
+    }
 }

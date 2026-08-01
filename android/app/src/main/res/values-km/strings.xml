@@ -123,6 +123,7 @@
     <string name="new_here">ទើបមកដល់? </string>
     <string name="create_account_link">បង្កើតគណនី</string>
     <string name="enter_credentials">បញ្ចូលអ៊ីមែល ឬ ឈ្មោះអ្នកប្រើ និងពាក្យសម្ងាត់</string>
+    <string name="session_expired">សម័យរបស់អ្នកបានផុតកំណត់។ សូមចូលម្តងទៀត។</string>
 
     <!-- Profile screen -->
     <string name="profile_change_photo">📷 ប្តូររូបភាព</string>

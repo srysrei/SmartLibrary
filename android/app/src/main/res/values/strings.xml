@@ -140,6 +140,7 @@
     <string name="new_here">New here? </string>
     <string name="create_account_link">Create account</string>
     <string name="enter_credentials">Enter your email or username and password</string>
+    <string name="session_expired">Your session has expired. Please log in again.</string>
 
     <!-- Profile screen -->
     <string name="profile_change_photo">📷 Change photo</string>

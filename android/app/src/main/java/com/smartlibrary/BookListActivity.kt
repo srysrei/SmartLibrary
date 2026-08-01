@@ -101,11 +101,11 @@ class BookListActivity : AppCompatActivity() {
 
         setupBottomNav()
         setupFab()
-        loadCategories()
     }
 
     override fun onResume() {
         super.onResume()
+        loadCategories()
         loadBooks()
         ReminderScheduler.checkNow(this)
     }
