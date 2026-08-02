@@ -18,6 +18,7 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.smartlibrary.adapter.BookAdapter
@@ -100,11 +101,11 @@ class BookListActivity : AppCompatActivity() {
 
         setupBottomNav()
         setupFab()
-        loadCategories()
     }
 
     override fun onResume() {
         super.onResume()
+        loadCategories()
         loadBooks()
         ReminderScheduler.checkNow(this)
     }

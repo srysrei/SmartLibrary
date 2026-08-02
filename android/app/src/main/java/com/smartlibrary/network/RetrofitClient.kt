@@ -1,7 +1,9 @@
 package com.smartlibrary.network
 
 import android.content.Context
+import android.content.Intent
 import com.smartlibrary.BuildConfig
+import com.smartlibrary.LoginActivity
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.Response
@@ -26,7 +28,8 @@ object RetrofitClient {
     }
 
     private fun build(context: Context): ApiService {
-        val session = SessionManager(context)
+        val appContext = context.applicationContext
+        val session = SessionManager(appContext)
 
         val authInterceptor = Interceptor { chain ->
             val original = chain.request()
@@ -40,6 +43,23 @@ object RetrofitClient {
             chain.proceed(builder.build())
         }
 
+        // A 401 on a request that carried a token means that token was rejected
+        // (expired/invalid) — as opposed to a 401 from /login with wrong credentials,
+        // which never carries a token. Only the former should force a logout.
+        val sessionExpiryInterceptor = Interceptor { chain ->
+            val hadToken = !session.token.isNullOrEmpty()
+            val response = chain.proceed(chain.request())
+            if (response.code == 401 && hadToken) {
+                session.clear()
+                appContext.startActivity(
+                    Intent(appContext, LoginActivity::class.java)
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                        .putExtra(LoginActivity.EXTRA_SESSION_EXPIRED, true)
+                )
+            }
+            response
+        }
+
         val logging = HttpLoggingInterceptor().apply {
             level = if (BuildConfig.DEBUG) HttpLoggingInterceptor.Level.BODY
             else HttpLoggingInterceptor.Level.NONE
@@ -47,6 +67,7 @@ object RetrofitClient {
 
         val client = OkHttpClient.Builder()
             .addInterceptor(authInterceptor)
+            .addInterceptor(sessionExpiryInterceptor)
             .addInterceptor(logging)
             .connectTimeout(20, TimeUnit.SECONDS)
             .readTimeout(20, TimeUnit.SECONDS)

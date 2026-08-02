@@ -82,10 +82,12 @@ class ProfileActivity : AppCompatActivity() {
         findViewById<View>(R.id.avatarContainer).setOnClickListener(pick)
         findViewById<TextView>(R.id.tvChangePhoto).setOnClickListener(pick)
 
+//       Change Language Code
         findViewById<TextView>(R.id.tvCurrentLanguage).text =
             LocaleManager.displayName(this, LocaleManager.currentLanguage())
         findViewById<View>(R.id.rowLanguage).setOnClickListener { LocaleManager.showPicker(this) }
 
+//        Change theme Code
         findViewById<TextView>(R.id.tvCurrentTheme).text =
             ThemeManager.displayName(this, ThemeManager.currentMode(this))
         findViewById<View>(R.id.rowTheme).setOnClickListener { ThemeManager.showPicker(this) }

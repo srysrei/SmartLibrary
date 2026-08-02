@@ -42,6 +42,7 @@
     <string name="return_default_book">Book #%1$d</string>
     <string name="return_already_returned">Already returned</string>
     <string name="return_item_author_format">by %1$s</string>
+    <string name="return_item_meta_format">by %1$s · BO #%2$d</string>
     <string name="return_returned_check">✓ Returned</string>
     <string name="return_nothing_left">Nothing left to return</string>
     <string name="return_select_one">Select at least one copy to return</string>

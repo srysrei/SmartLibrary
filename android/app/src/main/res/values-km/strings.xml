@@ -15,6 +15,9 @@
     <string name="lang_khmer">ខ្មែរ</string>
     <string name="cancel">បោះបង់</string>
 
+
+
+
     <!-- Theme / appearance -->
     <string name="theme">រូបរាង</string>
     <string name="choose_theme">ជ្រើសរើសរូបរាង</string>
@@ -39,13 +42,14 @@
     <string name="scan_catalog">ស្កេនកាតាឡុក</string>
     <string name="menu_notifications">ការជូនដំណឹង</string>
     <string name="nav_dashboard">ផ្ទាំងគ្រប់គ្រង</string>
-    <string name="nav_catalog">កាតាឡុក</string>
+    <string name="nav_catalog">បណ្ណាល័យ</string>
     <string name="nav_activity">សកម្មភាព</string>
     <string name="nav_inventory">ស្តុក</string>
     <string name="nav_profile">គណនី</string>
     <string name="nav_requests">សំណើ</string>
     <string name="nav_books">សៀវភៅ</string>
     <string name="nav_users">អ្នកប្រើប្រាស់</string>
+    <string name="nav_reports">របាយការណ៍</string>
     <string name="nav_borrows">ការខ្ចី</string>
     <string name="nav_return">សងវិញ</string>
     <string name="by_author">ដោយ %1$s</string>
@@ -119,6 +123,7 @@
     <string name="new_here">ទើបមកដល់? </string>
     <string name="create_account_link">បង្កើតគណនី</string>
     <string name="enter_credentials">បញ្ចូលអ៊ីមែល ឬ ឈ្មោះអ្នកប្រើ និងពាក្យសម្ងាត់</string>
+    <string name="session_expired">សម័យរបស់អ្នកបានផុតកំណត់។ សូមចូលម្តងទៀត។</string>
 
     <!-- Profile screen -->
     <string name="profile_change_photo">📷 ប្តូររូបភាព</string>
@@ -259,7 +264,7 @@
 
     <!-- Admin: dashboard / manage book / settings -->
     <string name="dashboard_admin_panel">ផ្ទាំងគ្រប់គ្រងអ្នកគ្រប់គ្រង</string>
-    <string name="dashboard_title">ផ្ទាំងគ្រប់គ្រង 📊</string>
+    <string name="dashboard_title">ផ្ទាំងគ្រប់គ្រង</string>
     <string name="dashboard_registered_users">អ្នកប្រើដែលបានចុះឈ្មោះ</string>
     <string name="dashboard_pending_requests">សំណើកំពុងរង់ចាំ</string>
     <string name="dashboard_active_borrows">ការខ្ចីសកម្ម</string>
@@ -330,6 +335,10 @@
     <string name="users_empty">រកមិនឃើញអ្នកប្រើ</string>
     <string name="users_grant_admin">ផ្តល់សិទ្ធិអ្នកគ្រប់គ្រង</string>
     <string name="users_role_updated">%1$s ឥឡូវជា %2$s</string>
+    <string name="users_search_hint">ស្វែងរកតាមឈ្មោះ…</string>
+    <string name="users_filter_all">ទាំងអស់</string>
+    <string name="users_filter_admin">អ្នកគ្រប់គ្រង</string>
+    <string name="users_filter_user">អ្នកប្រើ</string>
 
     <!-- Book-return reminder notifications -->
     <string name="notif_channel_name">ការរំលឹកសងសៀវភៅ</string>
@@ -345,4 +354,26 @@
         <item quantity="other">សៀវភៅដែលបានខ្ចី %1$d ក្បាលជិតដល់កំណត់ ឬហួសកំណត់សង។ ចុចដើម្បីពិនិត្យ។</item>
     </plurals>
 
+    <!-- Reports screen -->
+    <string name="reports_subtitle">ទិន្នន័យវិភាគ</string>
+    <string name="reports_title">របាយការណ៍</string>
+
+    <string name="reports_stat_books">សៀវភៅសរុប</string>
+    <string name="reports_stat_borrowed">កំពុងខ្ចី</string>
+    <string name="reports_stat_returned">បានសង</string>
+
+    <string name="reports_section_export">នាំចេញទិន្នន័យ</string>
+
+    <string name="reports_export_books_title">សៀវភៅទាំងអស់</string>
+    <string name="reports_export_books_desc">កាតាឡុកពេញលេញជាមួយអ្នកនិពន្ធ ប្រភេទ និងចំនួនស្តុក។</string>
+    <string name="reports_export_borrowed_title">សៀវភៅដែលបានខ្ចី</string>
+    <string name="reports_export_borrowed_desc">សៀវភៅដែលកំពុងខ្ចី ជាមួយអ្នកខ្ចី និងស្ថានភាព។</string>
+    <string name="reports_export_returned_title">សៀវភៅដែលបានសង</string>
+    <string name="reports_export_returned_desc">ការសងសៀវភៅដែលបានបញ្ចប់ ជាមួយកាលបរិច្ឆេទសង។</string>
+    <string name="reports_export_button">នាំចេញ CSV</string>
+    <string name="reports_export_pdf_button">នាំចេញ PDF</string>
+
+    <string name="reports_export_empty">មិនទាន់មានទិន្នន័យសម្រាប់នាំចេញទេ</string>
+    <string name="reports_export_share_title">នាំចេញរបាយការណ៍</string>
+    <string name="reports_export_failed">មិនអាចបង្កើតឯកសារនាំចេញបានទេ</string>
 </resources>

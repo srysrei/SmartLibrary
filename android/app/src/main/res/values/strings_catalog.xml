@@ -16,7 +16,7 @@
     <string name="booklist_available_dot">● available</string>
 
     <!-- Book detail screen -->
-    <string name="bookdetail_back">← Back</string>
+    <string name="bookdetail_back">Back</string>
     <string name="bookdetail_cover_desc">cover</string>
     <string name="bookdetail_category_pill">🏷️ Category</string>
     <string name="bookdetail_total_qty">TOTAL (QTY)</string>

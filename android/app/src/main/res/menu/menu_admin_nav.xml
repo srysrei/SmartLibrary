@@ -4,4 +4,5 @@
     <item android:id="@+id/nav_requests" android:icon="@drawable/ic_check" android:title="@string/nav_requests" />
     <item android:id="@+id/nav_books" android:icon="@drawable/ic_book" android:title="@string/nav_books" />
     <item android:id="@+id/nav_users" android:icon="@drawable/ic_group" android:title="@string/nav_users" />
+    <item android:id="@+id/nav_reports" android:icon="@drawable/ic_report" android:title="@string/nav_reports" />
 </menu>

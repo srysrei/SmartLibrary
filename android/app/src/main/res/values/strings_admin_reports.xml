@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reports screen -->
+    <string name="reports_subtitle">Insights</string>
+    <string name="reports_title">Reports</string>
+
+    <string name="reports_stat_books">Total Books</string>
+    <string name="reports_stat_borrowed">Currently Borrowed</string>
+    <string name="reports_stat_returned">Returned</string>
+
+    <string name="reports_section_export">Export Data</string>
+
+    <string name="reports_export_books_title">All Books</string>
+    <string name="reports_export_books_desc">Full catalog with author, category and stock levels.</string>
+    <string name="reports_export_borrowed_title">Borrowed Books</string>
+    <string name="reports_export_borrowed_desc">Books currently out on loan, with borrower and status.</string>
+    <string name="reports_export_returned_title">Return Book</string>
+    <string name="reports_export_returned_desc">Completed returns with return dates.</string>
+    <string name="reports_export_button">Export CSV</string>
+    <string name="reports_export_pdf_button">Export PDF</string>
+
+    <string name="reports_export_empty">Nothing to export yet</string>
+    <string name="reports_export_share_title">Export report</string>
+    <string name="reports_export_failed">Could not generate the export</string>
+</resources>

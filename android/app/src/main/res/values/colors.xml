@@ -10,7 +10,12 @@
     <color name="brand_700">#0C2A6B</color>
     <color name="cyan_300">#22D3EE</color>
 
+    <!-- Borrow screen stepper +/- icons. Same as brand_600 in light mode;
+         flipped to white in values-night for contrast on the dark stepper bg. -->
+    <color name="stepper_icon">#1D4ED8</color>
+
     <color name="ink">#20213A</color>
+    <color name="ink_day">#20213A</color>
     <color name="ink_sub">#7B7D97</color>
     <color name="panel_bg">#F4F3FB</color>
     <color name="line">#ECEAF5</color>

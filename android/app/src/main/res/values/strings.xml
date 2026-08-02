@@ -17,13 +17,14 @@
     <string name="scan_catalog">Scan Catalog</string>
     <string name="menu_notifications">Notifications</string>
     <string name="nav_dashboard">Dashboard</string>
-    <string name="nav_catalog">Catalog</string>
+    <string name="nav_catalog">Library</string>
     <string name="nav_activity">Activity</string>
     <string name="nav_inventory">Inventory</string>
     <string name="nav_profile">Profile</string>
     <string name="nav_requests">Requests</string>
     <string name="nav_books">Books</string>
     <string name="nav_users">Users</string>
+    <string name="nav_reports">Reports</string>
     <string name="nav_borrows">Borrows</string>
     <string name="nav_return">Return</string>
     <string name="by_author">by %1$s</string>
@@ -139,6 +140,7 @@
     <string name="new_here">New here? </string>
     <string name="create_account_link">Create account</string>
     <string name="enter_credentials">Enter your email or username and password</string>
+    <string name="session_expired">Your session has expired. Please log in again.</string>
 
     <!-- Profile screen -->
     <string name="profile_change_photo">📷 Change photo</string>
